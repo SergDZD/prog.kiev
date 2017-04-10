@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson02</title>
+    <!------>
+	<link rel="stylesheet" href="css/style.css">
+	<!------>
+</head>
+	<body>
+	<form name="my_form">
+		<h1>
+			My name is Sergey
+		</h1>
+	</form>
+	<table>
+		<caption class="caption">Ваши товары:</caption>
+		<th>Наименование</th>
+		<th>Цена, грн</th>
+		<th>Количество</th>
+		<th>Сумма</th>
+		<tr>
+			<td>Bluetooth-гарнитура</td>
+			<td>750</td>
+			<td>1</td>
+			<td>750</td>
+		</tr>
+		<tr>
+			<td>Чехол</td>
+			<td>120</td>
+			<td>1</td>
+			<td>120</td>
+		</tr>
+		<tr>
+			<td>Стекло защитное</td>
+			<td>160</td>
+			<td>2</td>
+			<td>320</td>
+		</tr>
+		<tr>
+			<td>Кабель micro-USB</td>
+			<td>80</td>
+			<td>1</td>
+			<td>80</td>
+		</tr>
+		<tr>
+			<td> Power bank Xiaomi Mi 10000mAh</td>
+			<td>450</td>
+			<td>1</td>
+			<td>450</td>
+		</tr>
+		<tr>
+			<td colspan="3" class="summ">Итого, грн:</td>
+			<td>1720</td>
+		</tr>
+	</table>
+	<form action="">
+		<p><input type="text" name="name" placeholder="Ваше имя"></p>
+		<p><input type="text" name="surname" placeholder="Фамилия"></p>
+		<p><input type="tel" name="phone" placeholder="+380 (XX) XXX-XX-XX"></input></p>
+		<p>
+			Доставка:
+		</p>
+		<p>
+			<input type="radio" name="delivery" id="deliv1" checked>
+			<label for="deliv1">Почтовая служба</label>
+		</p>
+		<p>
+			<input type="radio" name="delivery" id="deliv2">
+			<label for="deliv2">Самовывоз</label>
+		</p>
+		<p>
+			<label for="town">Город</label>
+		</p>
+		<p>
+			<select name="" id="town">
+				<option value="" disabled>город</option>
+				<option value="">Киев</option>
+				<option value="">Запорожье</option>
+				<option value="">Днепр</option>
+				<option value="">Львов</option>
+			</select>
+		</p>
+		<p>
+			Дополнительные услуги:
+		</p>
+		<p>
+			<input type="checkbox" id="du1">
+			<label for="du1">Подарочная упаковка</label>
+		</p>
+		<p>
+			<input type="checkbox" id="du2">
+			<label for="du2">Вызов курьера</label>
+		</p>
+		<p>
+			<input type="checkbox" id="du3">
+			<label for="du3">Наложенный платеж</label>
+		</p>
+		<p>Комментарий к заказу</p>
+		<p>
+			<textarea name="" id=""></textarea>
+		</p>
+		<p>
+			<input type="submit" value="Оформить заказ">
+		</p>
+	</form>
+	</body>
+</html>
